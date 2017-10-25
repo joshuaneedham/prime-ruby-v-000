@@ -1,4 +1,4 @@
 # Add  code here!
-def prime?(integer)
-  integer.each { |i| n % i == 0 }
+def prime? n
+  (2..Math.sqrt(n)).none? {|f| n % f == 0}
 end
