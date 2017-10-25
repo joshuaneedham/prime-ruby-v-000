@@ -1,6 +1,6 @@
 # Add  code here!
-def prime_factors(n)
-  prime_array = []    
+def prime?(n)
+  prime_array = []
   p = 2
   if n < 2
       return p
