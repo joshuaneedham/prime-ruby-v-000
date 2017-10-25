@@ -5,5 +5,6 @@ def prime?(n)
   end
   (2..n).each do |i|
     return true if (i % n == 0)
+    return false if (i % n != 0)
   end
 end
