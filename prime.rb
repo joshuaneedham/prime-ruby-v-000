@@ -6,4 +6,7 @@ def prime?(n)
   (2..n).each do |i|
     return false if (i % n == 0)
   end
+  (2..n).each do |i|
+    return true if (i % n == 0)
+  end
 end
