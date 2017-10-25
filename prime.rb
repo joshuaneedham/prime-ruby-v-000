@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(integer)
-  (integer).none? { |i| n % i == 0 }
+  integer.each { |i| n % i == 0 }
 end
