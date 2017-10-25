@@ -4,6 +4,6 @@ def prime?(n)
     return false
   end
   (2..n).each do |i|
-    return true if (i % n/2 == 0)
+    return true if (i/2 % n == 0)
   end
 end
