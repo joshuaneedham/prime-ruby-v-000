@@ -6,4 +6,4 @@ def prime?(n)
         end
 end
 
-(2..n) |i|  
+# (2..n) |i|
