@@ -6,3 +6,4 @@ def prime?(n)
     return true if (n % i == 0)
   end
 end
+end
