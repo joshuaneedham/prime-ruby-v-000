@@ -1,9 +1,11 @@
 # Add  code here!
 def prime?(n)
-  i = 1
-  while i * i <= num:
-      if num % i == 0:
-          factors.push(i)
-          factors.push(num/i)
-      i++
+  x = 2
+  while (x <= num / 2)
+    if (num % x == 0)
+      return false
+    else
+      return true
+    end
+  end
 end
