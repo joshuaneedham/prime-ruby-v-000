@@ -1,6 +1,4 @@
 # Add  code here!
-require 'prime'
 def prime?(integer)
-  Prime.each(integer) do |prime|
-    p prime
+  (2..n/2).none? { |i| n % i == 0 }
 end
