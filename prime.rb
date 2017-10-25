@@ -4,6 +4,7 @@ def prime?(n)
         for j in (2..i) do
             break if i%j == 0
         end
+      end
 end
 
 # (2..n) |i|
