@@ -1,4 +1,15 @@
 # Add  code here!
 def prime?(n)
-  (2..Math.sqrt(n)).none? {|f| n % f == 0 }
+prime_array = []    
+p = 2
+if n < 2
+    return p
+end
+
+while (n % p == 0) && (p < n)
+    prime_array.push(p)
+    p += 1
+end
+#puts prime_array.inspect
+return prime_array
 end
