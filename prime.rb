@@ -9,9 +9,3 @@ def prime?(n)
   	return n>1
   end
 
-  for i in 0 .. 100
-  	if isPrime(i) then
-  		puts "#{i} is prime"
-  	end
-  end
-
