@@ -2,8 +2,11 @@
 def prime?(n)
   if n <= 1
     return false
-  end
-
+  elsif (2..n) % n / 2  == 0)
+      return true
+    else
+      return false
+    end
 end
 
-(2..n) |i|
+# (2..n) |i|  
